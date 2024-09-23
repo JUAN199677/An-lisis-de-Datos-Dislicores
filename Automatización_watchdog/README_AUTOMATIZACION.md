@@ -17,11 +17,7 @@ Se especifica la configuración del servidor SQL, el nombre de la base de datos,
 
 ```python
 # Configuración de la base de datos
-database_config = {
-    'server': 'dislicores-1.cxc0gcgy4dsz.us-east-2.rds.amazonaws.com,1433',  
-    'database': 'dislicores-1', 
-    'username': 'admin',  
-    'password': 'KingKong9#_9+',  
+database_config = { 
 }
 
 # Crear cadena de conexión
@@ -137,7 +133,7 @@ Finalmente, el observador comienza a monitorear y permanece activo hasta que se 
 
 ```python
 if __name__ == '__main__':
-    path_to_watch = r"C:\Users\Juan Daniel Bermudez\OneDrive\Escritorio\M5\NuevaData"  # Cambia esto por tu ruta
+    path_to_watch = r""  # Cambia esto por tu ruta
     event_handler = DataHandler(engine)
 
     # Procesar archivos existentes en la carpeta
